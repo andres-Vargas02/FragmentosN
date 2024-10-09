@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentUno">
+
+    <!-- Layout contenedor de elementos UI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:gravity="center"
+            android:text="@string/pantalla_uno"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnPantallaDos"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:text="@string/pantalla_dos" />
+
+        <Button
+            android:id="@+id/btnPantallaTres"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:text="@string/pantalla_tres" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="80sp" />
+
+    </LinearLayout>
+</FrameLayout>
